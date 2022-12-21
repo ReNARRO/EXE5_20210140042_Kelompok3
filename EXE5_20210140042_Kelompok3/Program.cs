@@ -31,6 +31,7 @@ namespace EXE5_20210140042_Kelompok3
             {
                 endriarto = newnode;
                 dewobroto = newnode;
+                
             }
             dewobroto.next = newnode;
             dewobroto = newnode;
@@ -53,6 +54,10 @@ namespace EXE5_20210140042_Kelompok3
                 Console.WriteLine("Queue is empty");
                 return;
             }
+
+            Node tampil;
+            for  (tampil = endriarto; tampil != null; tampil = tampil.next)
+                Console.WriteLine(tampil.name);
         }       
     }
     class Program
