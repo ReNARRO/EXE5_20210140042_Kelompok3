@@ -19,6 +19,14 @@ namespace EXE5_20210140042_Kelompok3
             endriarto = null;
             dewobroto = null;
         }
+        public void insert()
+        {
+            string nm;
+            Node newnode = new Node();
+            Console.WriteLine("Masukkan Element: ");
+            nm = Console.ReadLine();    
+
+        }
         static void Main(string[] args)
         {
         }
