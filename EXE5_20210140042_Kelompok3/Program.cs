@@ -31,7 +31,7 @@ namespace EXE5_20210140042_Kelompok3
             {
                 endriarto = newnode;
                 dewobroto = newnode;
-                
+                return;
             }
             dewobroto.next = newnode;
             dewobroto = newnode;
