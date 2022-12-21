@@ -27,7 +27,13 @@ namespace EXE5_20210140042_Kelompok3
             nm = Console.ReadLine(); 
             newnode.name = nm;
             newnode.next = null;
-
+            if(endriarto == null)
+            {
+                endriarto = newnode;
+                dewobroto = newnode;
+            }
+            dewobroto.next = newnode;
+            dewobroto = newnode;
         }
         static void Main(string[] args)
         {
