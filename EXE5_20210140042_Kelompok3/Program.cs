@@ -24,7 +24,9 @@ namespace EXE5_20210140042_Kelompok3
             string nm;
             Node newnode = new Node();
             Console.WriteLine("Masukkan Element: ");
-            nm = Console.ReadLine();    
+            nm = Console.ReadLine(); 
+            newnode.name = nm;
+            newnode.next = null;
 
         }
         static void Main(string[] args)
