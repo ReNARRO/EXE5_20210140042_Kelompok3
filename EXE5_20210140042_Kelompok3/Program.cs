@@ -53,9 +53,32 @@ namespace EXE5_20210140042_Kelompok3
                 Console.WriteLine("Queue is empty");
                 return;
             }
-        }
+        }       
+    }
+    class Program
+    {
         static void Main(string[] args)
         {
+            Queue q = new Queue();
+            char ch;
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine("Menu");
+                    Console.WriteLine("1. Implement insert operation");
+                    Console.WriteLine("2. Implement delete operation");
+                    Console.WriteLine("3. Display values");
+                    Console.WriteLine("4. Exit");
+                    Console.Write("\nEnter your choice: ");
+                    ch = Convert.ToChar(Console.ReadLine());
+                    Console.WriteLine();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Check for the values entered.");
+                }
+            }
         }
     }
 }
