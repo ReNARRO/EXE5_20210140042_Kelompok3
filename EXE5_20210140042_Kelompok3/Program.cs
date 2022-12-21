@@ -35,6 +35,14 @@ namespace EXE5_20210140042_Kelompok3
             dewobroto.next = newnode;
             dewobroto = newnode;
         }
+        public void delete()
+        {
+            if(endriarto == null)
+            {
+                Console.WriteLine("Queue is empty");
+                return;
+            }
+        }
         static void Main(string[] args)
         {
         }
