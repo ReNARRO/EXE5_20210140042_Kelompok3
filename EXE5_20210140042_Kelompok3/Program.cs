@@ -42,6 +42,9 @@ namespace EXE5_20210140042_Kelompok3
                 Console.WriteLine("Queue is empty");
                 return;
             }
+            endriarto = endriarto.next;
+            if (endriarto == null)
+                dewobroto = null ;
         }
         static void Main(string[] args)
         {
