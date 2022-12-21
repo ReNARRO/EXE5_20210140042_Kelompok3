@@ -14,6 +14,11 @@ namespace EXE5_20210140042_Kelompok3
     class Queue
     {
         Node endriarto, dewobroto;
+        public Queue()
+        {
+            endriarto = null;
+            dewobroto = null;
+        }
         static void Main(string[] args)
         {
         }
