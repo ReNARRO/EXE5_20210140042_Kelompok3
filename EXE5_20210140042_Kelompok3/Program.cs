@@ -11,8 +11,9 @@ namespace EXE5_20210140042_Kelompok3
         public string name;
         public Node next;
     }
-    class Program
+    class Queue
     {
+        Node endriarto, dewobroto;
         static void Main(string[] args)
         {
         }
